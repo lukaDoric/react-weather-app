@@ -18,6 +18,7 @@ function App() {
   return (
     <div>
       <h1>React + .NET API Test</h1>
+      <p>Pozdrav iz nove deploy verzije!</p>
       {data ? (
         <pre>{JSON.stringify(data, null, 2)}</pre>
       ) : (
